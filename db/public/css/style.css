@@ -1,0 +1,61 @@
+body {
+  background-color: #e8eee8;
+  margin: auto;
+}
+
+table {
+  table-layout: fixed;
+}
+
+fieldset {
+  width: 410px;
+  margin: auto;
+  text-align: center;
+}
+
+legend {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+label {
+  font-size: 14px;
+  color: #06127D;
+}
+
+td label {
+  font-weight: bold;
+  padding-right: 7px;
+}
+
+td input {
+  padding-left: 7px;
+}
+
+form input {
+  width: 140px;
+}
+
+label input[type="radio"] {
+  font-size: 14px;
+  color: #201E1C;
+}
+
+button {
+  width: 75px;
+  font-weight: bold;
+  background-color: rgb(232, 237, 230);
+}
+
+table {
+  border: solid red;
+  display: inline-table;
+}
+
+fieldset {
+  border: solid blue;
+}
+
+td:nth-child(1) {
+  text-align: right
+}
